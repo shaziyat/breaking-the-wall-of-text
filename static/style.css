@@ -57,7 +57,7 @@ header a:hover {
   top: 0;
   bottom: 0;
   width: 200px;
-  left: -200px;
+  right: -200px;
   overflow: auto;
   z-index: 2;
   background-color: #fff;
@@ -84,7 +84,7 @@ header a:hover {
 #content-wrapper {
   overflow-x: hidden;
   margin-left: 0px;
-  transition: margin-left 0.2s;
+  transition: margin-right 0.2s;
 
   /* sticky bottom */
   margin-bottom: -160px;
@@ -94,7 +94,7 @@ header a:hover {
 #footer {
   height: 160px;
   margin-left: 0px;
-  transition: margin-left 0.2s;
+  transition: margin-right 0.2s;
 }
 
 .mui-appbar {
@@ -194,9 +194,12 @@ header a:hover {
  * Toggle Side drawer
  */
 #sidedrawer.active {
-  transform: translate(200px);
+  transform: translate(-200px);
 }
 
+#header.active, #content-wrapper.active, #sections.active {
+ margin-right: 200px;
+}
 
 .highlighters {
   background-color: #FFF9C4;

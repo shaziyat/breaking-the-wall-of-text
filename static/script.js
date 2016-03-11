@@ -1,6 +1,8 @@
 jQuery(function($) {
   var $bodyEl = $('body'),
       $sidedrawerEl = $('#sidedrawer');
+      $header = $('#header');
+      $content_wrapper = $('#content-wrapper');
   
   
   // ==========================================================================
@@ -13,6 +15,8 @@ jQuery(function($) {
         $sidedrawerEl
           .removeClass('active')
           .appendTo(document.body);
+        $header.removeClass('active').appendTo(document.body);
+        $content_wrapper.removeClass('active').appendTo(document.body);
       }
     };
     
@@ -23,6 +27,8 @@ jQuery(function($) {
     setTimeout(function() {
       $sidedrawerEl.addClass('active');
     }, 20);
+    $header.addClass('active');
+    $content_wrapper.addClass('active');
   }
   
   
