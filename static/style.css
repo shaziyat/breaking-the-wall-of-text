@@ -119,10 +119,10 @@ header a:hover {
     margin: 40px;
   }
   
-  .icons {
+  /*.icons {
     width: 75px;
     height: 75px;
-  }
+  }*/
   
   .mui-container-fluid {
     display: none;
@@ -130,6 +130,11 @@ header a:hover {
 
   .mui-panel {
   padding: 40px;
+  }
+
+  .icons {
+    max-width: 75px;
+    max-height: 75px;
   }
   
   /*#header {
@@ -181,9 +186,13 @@ header a:hover {
   .mui-panel {
   padding: 20px;
   }
+  .icons {
+    max-width: 55px;
+    max-height: 55px;
+  }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 768px) {
+/*@media only screen and (min-width: 641px) and (max-width: 768px) {
   .icons {
     width: 75px;
     height: 75px;
@@ -195,6 +204,11 @@ header a:hover {
     width: 55px;
     height: 55px;
   }
+}*/
+
+.icons {
+    width: 100%;
+    height: 100%;
 }
 
 /**
