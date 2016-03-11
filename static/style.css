@@ -98,7 +98,7 @@ header a:hover {
   color: rgba(255,255,255,.87);
 }
 
-@media only screen and (min-width: 769px) and (max-width : 1824px) {
+@media only screen and (min-width: 769px) {
   .copyright-img {
     text-align: right;
   }
@@ -134,8 +134,8 @@ header a:hover {
 
   #footer {
     margin-left: 200px;
-  }*/
-  
+  }
+
   body.hide-sidedrawer #header {
     left: 0;
   }
@@ -150,10 +150,10 @@ header a:hover {
 
   body.hide-sidedrawer #footer {
     margin-left: 0;
-  }
+  }*/
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .copyright-img {
     text-align: center;
   }
@@ -175,7 +175,7 @@ header a:hover {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .icons {
     width: 55px;
     height: 55px;
