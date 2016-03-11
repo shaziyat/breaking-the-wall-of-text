@@ -127,6 +127,10 @@ header a:hover {
   .mui-container-fluid {
     display: none;
   }
+
+  .mui-panel {
+  padding: 40px;
+  }
   
   /*#header {
     left: 200px;
@@ -174,6 +178,9 @@ header a:hover {
   .mui-container {
     display: none;
   }
+  .mui-panel {
+  padding: 20px;
+  }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
@@ -208,6 +215,11 @@ header a:hover {
 
 .inner-highlighters {
   display: inline;
+  padding: 0px;
+}
+
+.mui--text-headline {
+  padding: 0px;
 }
 
 .sections {
