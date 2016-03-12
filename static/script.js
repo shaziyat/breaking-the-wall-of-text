@@ -3,10 +3,13 @@ jQuery(function($) {
       $sidedrawerEl = $('#sidedrawer');
       $header = $('#header');
       $content_wrapper = $('#content-wrapper');
-      $textToHide = $('.answers').map(function() {return $(this).text().substring(59);});
-      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 59);});
+      $textToHide = $('.answers').map(function() {return $(this).text().substring(95);});
+      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 95);});
 
 
+  // ==========================================================================
+  // Toggle Answers
+  // ==========================================================================
       $('.answers').each(function(i){
         $(this).html($visibleText[i] + ('<span class="hide">' + $textToHide[i] + '</span>'));
       });

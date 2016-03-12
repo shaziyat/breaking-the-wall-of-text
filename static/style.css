@@ -27,7 +27,7 @@ a:hover {
   color: #1C62B9;
 }
 
-hr{
+hr {
   margin-bottom: 0px;
 }
 
@@ -123,11 +123,6 @@ header a:hover {
     margin: 40px;
   }
   
-  /*.icons {
-    width: 75px;
-    height: 75px;
-  }*/
-  
   .mui-container-fluid {
     display: none;
   }
@@ -140,38 +135,6 @@ header a:hover {
     max-width: 75px;
     max-height: 75px;
   }
-  
-  /*#header {
-    left: 200px;
-  }
-
-  #sidedrawer {
-    transform: translate(200px);
-  }
-
-  #content-wrapper {
-    margin-left: 200px;
-  }
-
-  #footer {
-    margin-left: 200px;
-  }
-
-  body.hide-sidedrawer #header {
-    left: 0;
-  }
-  
-  body.hide-sidedrawer #sidedrawer {
-    transform: translate(0px);
-  }
-
-  body.hide-sidedrawer #content-wrapper {
-    margin-left: 0;
-  }
-
-  body.hide-sidedrawer #footer {
-    margin-left: 0;
-  }*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -196,20 +159,6 @@ header a:hover {
   }
 }
 
-/*@media only screen and (min-width: 641px) and (max-width: 768px) {
-  .icons {
-    width: 75px;
-    height: 75px;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .icons {
-    width: 55px;
-    height: 55px;
-  }
-}*/
-
 .icons {
     width: 100%;
     height: 100%;
@@ -218,6 +167,7 @@ header a:hover {
 /**
  * Toggle Side drawer
  */
+
 #sidedrawer.active {
   transform: translate(-200px);
 }
@@ -251,12 +201,12 @@ header a:hover {
 
 .qs-text {
   color: #1C62B9;
-
 }
 
 /**
  * Side drawer CSS
  */
+
 #sidedrawer-brand {
   padding-left: 20px;
 }
