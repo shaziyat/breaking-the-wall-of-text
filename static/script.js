@@ -4,7 +4,7 @@ jQuery(function($) {
       $header = $('#header');
       $content_wrapper = $('#content-wrapper');
       $textToHide = $('.answers').map(function() {return $(this).text().substring(59);});
-      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 58);});
+      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 59);});
 
 
       $('.answers').each(function(i){
