@@ -3,6 +3,26 @@ jQuery(function($) {
       $sidedrawerEl = $('#sidedrawer');
       $header = $('#header');
       $content_wrapper = $('#content-wrapper');
+      $textToHide = $('.answers').map(function() {return $(this).text().substring(59);});
+      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 58);});
+
+
+      $('.answers').each(function(i){
+        $(this).html($visibleText[i] + ('<span class="hide">' + $textToHide[i] + '</span>'));
+      });
+          
+      $('.read-more').each(function(i){
+          var val = $('span.hide').map(function() {return $(this) ;});
+        $(this).click(function() {
+            
+            console.log(val[0]);
+            val[i].toggle();
+            
+           });
+         });
+
+
+      $('.answers span').hide();
   
   
   // ==========================================================================
