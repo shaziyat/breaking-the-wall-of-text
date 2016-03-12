@@ -3,8 +3,9 @@ jQuery(function($) {
       $sidedrawerEl = $('#sidedrawer');
       $header = $('#header');
       $content_wrapper = $('#content-wrapper');
-      $textToHide = $('.answers').map(function() {return $(this).text().substring(95);});
-      $visibleText = $('.answers').map(function() {return $(this).text().substring(0, 95);});
+      $textToHide = $('.answers').map(function() {return $(this).html().substring(95);});
+      $visibleText = $('.answers').map(function() {return $(this).html().substring(0, 95);});
+      $dots = $('.dots').map(function() {return $(this) ;});
 
 
   // ==========================================================================
@@ -20,6 +21,7 @@ jQuery(function($) {
             
             console.log(val[0]);
             val[i].toggle();
+            $dots[i].toggle();
             
            });
          });

@@ -241,9 +241,9 @@ header a:hover {
  * Footer CSS
  */
 
-/*footer {
-  height: 100px;
-  background-color: #eee;
+#footer {
+  height: 50px;
+  background-color: #475C4D;
   border-top: 1px solid #e0e0e0;
-  padding-top: 35px;
-}*/
+  color: #eee;
+}
