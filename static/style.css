@@ -89,10 +89,15 @@ header a:hover {
   overflow-x: hidden;
   margin-left: 0px;
   transition: margin-right 0.2s;
+  background-color: #eee;
 
   /* sticky bottom */
   margin-bottom: -160px;
   padding-bottom: 160px;
+}
+
+#upper-section {
+  background-color: #fff;
 }
 
 #footer {
@@ -207,7 +212,7 @@ header a:hover {
 }
 
 .sections {
-  background-color: #eee;
+  /*background-color: #eee;*/
   border-top: 1px solid #e0e0e0;
 }
 
