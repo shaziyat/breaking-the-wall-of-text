@@ -135,27 +135,43 @@ header a:hover {
     max-width: 75px;
     max-height: 75px;
   }
+
+  .internal-links {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .copyright-img {
     text-align: center;
   }
+
   .copyright-text {
     text-align: center;
   }
+
   .inner-sections {
     margin: 20px;
   }
+
   .mui-container {
     display: none;
   }
+
   .mui-panel {
   padding: 20px;
   }
+
   .icons {
     max-width: 55px;
     max-height: 55px;
+  }
+
+  .internal-links-div {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
   }
 }
 
@@ -172,7 +188,7 @@ header a:hover {
   transform: translate(-200px);
 }
 
-#header.active, #content-wrapper.active, #sections.active {
+#header.active, #content-wrapper.active, #sections.active, #footer.active {
  margin-right: 200px;
 }
 
