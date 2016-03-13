@@ -2,8 +2,8 @@ jQuery(function($) {
   var $bodyEl = $('body'),
       $sidedrawerEl = $('#sidedrawer');
       $header = $('#header');
-      $footer = $('#footer');
       $content_wrapper = $('#content-wrapper');
+      $footer = $('#footer');
       $textToHide = $('.answers').map(function() {return $(this).html().substring(120);});
       $visibleText = $('.answers').map(function() {return $(this).html().substring(0, 120);});
       $dots = $('.dots').map(function() {return $(this) ;});
@@ -42,8 +42,8 @@ jQuery(function($) {
           .removeClass('active')
           .appendTo(document.body);
         $header.removeClass('active').appendTo(document.body);
-        $footer.removeClass('active').appendTo(document.body);
         $content_wrapper.removeClass('active').appendTo(document.body);
+        $footer.removeClass('active').appendTo(document.body);
       }
     };
     
@@ -55,8 +55,8 @@ jQuery(function($) {
       $sidedrawerEl.addClass('active');
     }, 20);
     $header.addClass('active');
-    $footer.addClass('active');
     $content_wrapper.addClass('active');
+    $footer.addClass('active');
   }
   
   
