@@ -36,7 +36,6 @@ hr {
  */
 
 #header {
-  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -115,6 +114,15 @@ header a:hover {
   color: rgba(255,255,255,.87);
 }
 
+.internal-links {
+border-top: 1px solid #e0e0e0;
+
+}
+
+#copy-terms {
+  border-top: 0px;
+}
+
 @media only screen and (min-width: 769px) {
   .copyright-img {
     text-align: right;
@@ -142,7 +150,11 @@ header a:hover {
   }
 
   .internal-links {
-    display: none;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    font-size: 16px;
   }
 }
 
@@ -179,13 +191,9 @@ header a:hover {
     margin-bottom: 0px;
   }
 
-  .internal-links {
-  border-top: 1px solid #e0e0e0;
-
-  }
-
-  #copy-terms {
-    border-top: 0px;
+  .intro-text {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
