@@ -202,6 +202,24 @@ border-top: 1px solid #e0e0e0;
     height: 100%;
 }
 
+.back-to-top {
+background: none;
+margin: 0; 
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+}
+
+.fa-arrow-up {
+  color: #1C62B9;
+}
+
 /**
  * Toggle Side drawer
  */
