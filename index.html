@@ -9,41 +9,6 @@
     <link href="static/style.css" rel="stylesheet" type="text/css" />
     <script src="http://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-      jQuery(document).ready(function() {
-   
-      var offset = 250;
-       
-      var duration = 300;
-       
-      jQuery(window).scroll(function() {
-       
-      if (jQuery(this).scrollTop() > offset) {
-       
-      jQuery('.back-to-top').fadeIn(duration);
-       
-      } else {
-       
-      jQuery('.back-to-top').fadeOut(duration);
-       
-      }
-       
-      });
-       
-      &nbsp;
-       
-      jQuery('.back-to-top').click(function(event) {
-       
-      event.preventDefault();
-       
-      jQuery('html, body').animate({scrollTop: 0}, duration);
-       
-      return false;
-       
-      })
-       
-      });
-    </script>
     <script src="static/script.js"></script>
     <link rel="stylesheet" id="font-awesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Prototype 2 - Copyright Policy on DeviantArt</title>
@@ -396,7 +361,7 @@
 
     </div>
     <a href="#" class="back-to-top" style="display: inline;">
-      <button class="mui-btn mui-btn--small mui-btn--fab"><i class="fa fa-arrow-up fa-lg"></i></button>
+      <button class="mui-btn mui-btn--small mui-btn--fab scroller"><i class="fa fa-arrow-up fa-lg"></i></button>
     </a>
   </body>
   <footer id="footer">

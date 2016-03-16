@@ -221,6 +221,10 @@ color: #ffffff;
   color: #1C62B9;
 }
 
+.scroller{
+  padding: 0px;
+}
+
 /**
  * Toggle Side drawer
  */
