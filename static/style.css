@@ -89,7 +89,7 @@ header a:hover {
   overflow-x: hidden;
   margin-left: 0px;
   transition: margin-right 0.2s;
-  background-color: #eee;
+  background-color: #d6ded4;
 
   /* sticky bottom */
   margin-bottom: -160px;
@@ -124,10 +124,11 @@ border-top: 1px solid #e0e0e0;
   border-top: 0px;
 }
 
+.copyright-img {
+  text-align: center;
+}
+
 @media only screen and (min-width: 769px) {
-  .copyright-img {
-    text-align: right;
-  }
 
   .copyright-text {
     text-align: left;
@@ -160,9 +161,6 @@ border-top: 1px solid #e0e0e0;
 }
 
 @media only screen and (max-width: 768px) {
-  .copyright-img {
-    text-align: center;
-  }
 
   .copyright-text {
     text-align: center;
