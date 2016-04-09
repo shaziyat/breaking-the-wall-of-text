@@ -17,6 +17,7 @@ buttons {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-size: 16px;
 }
 
 a {
@@ -117,7 +118,6 @@ header a:hover {
 
 .internal-links {
 border-top: 1px solid #e0e0e0;
-
 }
 
 #copy-terms {
@@ -157,6 +157,10 @@ border-top: 1px solid #e0e0e0;
     margin-right: 40px;
     margin-bottom: 0px;
     font-size: 16px;
+  }
+
+  .internal-links {
+  display: none;
   }
 }
 

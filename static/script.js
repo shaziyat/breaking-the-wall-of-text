@@ -4,8 +4,8 @@ jQuery(function($) {
       $header = $('#header');
       $content_wrapper = $('#content-wrapper');
       $footer = $('#footer');
-      $textToHide = $('.answers').map(function() {return $(this).html().substring(120);});
-      $visibleText = $('.answers').map(function() {return $(this).html().substring(0, 120);});
+      $textToHide = $('.answers').map(function() {return $(this).html().substring(100);});
+      $visibleText = $('.answers').map(function() {return $(this).html().substring(0, 100);});
       $dots = $('.dots').map(function() {return $(this) ;});
 
 
