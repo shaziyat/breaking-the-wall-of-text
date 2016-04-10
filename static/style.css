@@ -6,7 +6,6 @@ html,
 body {
   height: 100%;
   font-family: "Roboto", Helvetica, Arial;
-
 }
 
 html,
@@ -116,10 +115,6 @@ header a:hover {
   color: rgba(255,255,255,.87);
 }
 
-.internal-links {
-border-top: 1px solid #e0e0e0;
-}
-
 #copy-terms {
   border-top: 0px;
 }
@@ -151,17 +146,6 @@ border-top: 1px solid #e0e0e0;
     max-height: 75px;
   }
 
-  .internal-links {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 0px;
-    font-size: 16px;
-  }
-
-  .internal-links {
-  display: none;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -187,17 +171,11 @@ border-top: 1px solid #e0e0e0;
     max-height: 55px;
   }
 
-  .internal-links-div {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-  }
-
   .intro-text {
     margin-left: 20px;
     margin-right: 20px;
   }
+
 }
 
 .icons {
