@@ -183,11 +183,50 @@ header a:hover {
     height: 100%;
 }
 
+.btn-caret{
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  color: #1C62B9;
+
+}
+
+.qs-caret, .btn-caret {
+  -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+.qs-caret:active, .btn-caret:active {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+     transform: rotate(180deg);
+}
+
 .back-to-top {
 background: none;
 margin: 0; 
 position: fixed;
 bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+}
+
+.toggle {
+background: none;
+margin: 0; 
+position: fixed;
+bottom: 80px;
 right: 0;
 width: 70px;
 height: 70px;
@@ -203,6 +242,9 @@ color: #ffffff;
 
 .scroller{
   padding: 0px;
+}
+.scroller2{
+  padding-bottom: 0px;
 }
 
 /**
